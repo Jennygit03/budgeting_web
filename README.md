@@ -21,11 +21,11 @@ Our Personal Budget System is a digital tool made to help users efficiently trac
 
 ## Key Features
 
-- Expense Categorization: Track expenses by categories
-- Goal-Based Savings Tracking: Users can set and monitor savings goals
-- Bill Reminder & Payment Scheduling: Notifies users of upcoming bills and allows automated payments
-- Expense Forecasts: Predicts future spending based on past transactions
-- Cash Flow Data: Generates visual reports comparing income and expenses
+- Expense Categorization: Divide expenses into different categories.
+- Goal-Based Savings Tracking: Allows users to set and track savings goals with visual progress indicators showing percentage saved toward goal….
+- Income Tracking: User can add and manage multiple income sources.
+- Bills Management: Track due dates and amounts to stay on top of payments.
+- Reports: Monthly breakdown of income vs. expenses and bills.
 
 
 ## Challenges Encountered & Viable Solutions
