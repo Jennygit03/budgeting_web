@@ -91,6 +91,51 @@ Personal Budget App
 └── README.md
 ```
 
+## Requirements on how to open the program
+- XAMPP (for Apache server, MySQL, and phpMyAdmin)
+- A web browser
+
+---
+
+## How to set up the environment?
+  ### 1. Download & Install XAMPP
+    - Go to the official XAMPP website: [https://www.apachefriends.org/download.html](https://www.apachefriends.org/download.html)
+    - Download the version best for your operating system
+
+  ### 2. Launch XAAMP
+    - Open the XAMPP Control Panel
+    - Start the the following servers:
+      - Apache
+      - MySQL
+
+  ### 3. Access phpMyAdmin
+    - In the XAMPP Control Panel, clock **"Admin"** next to MySQL
+    - This open **phpMyAdmin** in your web browser
+    - From here, make sure the database 'finalproject' exists
+      - If it doesn't, download the sql files directly from the github to access it
+      - Then go to the **Import** tab and upload the SQL files with all the table definitions.
+
+  **`Look for the SQL folder`**
+
+
+## Accessing the Program
+### 4. Place your files
+  - Download 'budget_web' as a zip folder
+  - Unzip the 'budget_web' and place it into your XAMPP 'htdocs' folder: Example path: 'C:\xampp\htdocs\budget_web'
+
+### 5. Edit Database Connection
+  - In 'db.php', adjust the connection settings to match your systems. Example:
+    ```php
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "finalproject";
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+### 6. Running the Program
+  - Run the url on your local machine:
+    'http://localhost/budget_web/front_end/index.html'
+
 
 ## Authors
 
@@ -102,3 +147,4 @@ Personal Budget App
 ## 🔗 Links
 - [GitHub Repository](https://github.com/Jennygit03/budgeting_web)
 - [Presentation](https://docs.google.com/presentation/d/1nu7YUajwIhhEvWLHyYrKfjP0L3KbYELVvl8LDzjkTFg/edit?usp=sharing)
+- [Final Report](https://www.overleaf.com/project/67aaa486397e3fec25eea43a)
